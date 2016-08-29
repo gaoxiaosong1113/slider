@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+<div class="slider">
+    <div class="slider-box">
+        <div class="sMain"><img src="banner1.png" alt=""></div>
+        <div class="sMain"><img src="banner1.png" alt=""></div>
+        <div class="sMain"><img src="banner1.png" alt=""></div>
+        <div class="sMain"><img src="banner1.png" alt=""></div>
+        <div class="sMain"><img src="banner1.png" alt=""></div>
+    </div>
+    <ul class="slider-item">
+        <li class="cur"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+<script type="text/javascript" src="js/slide.js"></script>
+
+<script type="text/javascript">
+
+    var slider= Slider.newClass({
+        slide: document.querySelector(".slider"),
+        item: 0,
+        switch: true,
+        time: 3000
+    });
+</script>
+</html>
